@@ -44,6 +44,6 @@ All nine projects now open directly into case-study pages. Frostiez keeps its ex
 
 The supplied `Gif Animations` folder supplies the animations for all eight new pages. Original animations are copied intact into each project's media directory. They load near the viewport, rather than loading the whole animation collection when the gallery opens.
 
-Happy Botanist, Frost, Weeed, and Call The Queens use the existing original WebP artwork. Hardy’s, Canabotanica, Sunset, and Sunset Collection use individual artwork captures from their Figma boards where original image files were unavailable. Those PNGs are preview-resolution (roughly 150–635px wide), not original exports; full-resolution originals can replace them without changing page structure. The Figma boards and the supplied portfolio document provide the copy. Sunset Collection's copy is transcribed from Figma.
+Happy Botanist, Frost, Weeed, and Call The Queens use the existing original WebP artwork. Hardy’s, Canabotanica, Sunset, and Sunset Collection use individual artwork captures from their Figma boards where original image files were unavailable. Those JPGs are preview-resolution (roughly 150–635px wide), not original exports; full-resolution originals can replace them without changing page structure. The Figma boards and the supplied portfolio document provide the copy. Sunset Collection's copy is transcribed from Figma.
 
 No post-implementation browser or visual review was performed, as requested for this session. Production compilation remains available through `npm run build`.

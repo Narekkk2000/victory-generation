@@ -848,9 +848,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/hardys/flower-packaging.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/hardys/flower-packaging.jpg",
+              "width": 634,
+              "height": 358
             },
             "alt": "Hardy’s Cannabis — flower packaging"
           }
@@ -870,18 +870,18 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/hardys/flower-range.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/hardys/flower-range.jpg",
+              "width": 634,
+              "height": 357
             },
             "alt": "Hardy’s Cannabis — flower range"
           },
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/hardys/pre-roll-tins.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/hardys/pre-roll-tins.jpg",
+              "width": 634,
+              "height": 353
             },
             "alt": "Hardy’s Cannabis — pre roll tins"
           },
@@ -892,9 +892,9 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/hardys/pre-roll-tubes.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/hardys/pre-roll-tubes.jpg",
+                  "width": 379,
+                  "height": 302
                 },
                 "alt": "Hardy’s Cannabis — pre roll tubes"
               },
@@ -923,9 +923,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/hardys/merchandise-shirt.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/hardys/merchandise-shirt.jpg",
+              "width": 634,
+              "height": 505
             },
             "alt": "Hardy’s Cannabis — merchandise shirt"
           },
@@ -936,18 +936,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/hardys/embroidered-cap.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/hardys/embroidered-cap.jpg",
+                  "width": 248,
+                  "height": 227
                 },
                 "alt": "Hardy’s Cannabis — embroidered cap"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/hardys/hoodie.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/hardys/hoodie.jpg",
+                  "width": 375,
+                  "height": 227
                 },
                 "alt": "Hardy’s Cannabis — hoodie"
               }
@@ -1010,18 +1010,18 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset/logo-evolution.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset/logo-evolution.jpg",
+              "width": 632,
+              "height": 144
             },
             "alt": "Sunset — logo evolution"
           },
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset/identity-sketch.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset/identity-sketch.jpg",
+              "width": 632,
+              "height": 352
             },
             "alt": "Sunset — identity sketch"
           }
@@ -1045,18 +1045,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/retail-wall.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/retail-wall.jpg",
+                  "width": 310,
+                  "height": 352
                 },
                 "alt": "Sunset — retail wall"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/retail-interior.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/retail-interior.jpg",
+                  "width": 309,
+                  "height": 352
                 },
                 "alt": "Sunset — retail interior"
               }
@@ -1086,18 +1086,18 @@
                   {
                     "kind": "image",
                     "asset": {
-                      "src": "/media/projects/sunset/furniture-sketch.png",
-                      "width": 65536,
-                      "height": 4292542531
+                      "src": "/media/projects/sunset/furniture-sketch.jpg",
+                      "width": 161,
+                      "height": 190
                     },
                     "alt": "Sunset — furniture sketch"
                   },
                   {
                     "kind": "image",
                     "asset": {
-                      "src": "/media/projects/sunset/furniture-render.png",
-                      "width": 65536,
-                      "height": 4292542531
+                      "src": "/media/projects/sunset/furniture-render.jpg",
+                      "width": 155,
+                      "height": 190
                     },
                     "alt": "Sunset — furniture render"
                   }
@@ -1112,18 +1112,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/island-render.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/island-render.jpg",
+                  "width": 310,
+                  "height": 308
                 },
                 "alt": "Sunset — island render"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/island-lighting.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/island-lighting.jpg",
+                  "width": 309,
+                  "height": 308
                 },
                 "alt": "Sunset — island lighting"
               }
@@ -1132,9 +1132,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset/storefront.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset/storefront.jpg",
+              "width": 632,
+              "height": 345
             },
             "alt": "Sunset — storefront"
           }
@@ -1158,9 +1158,9 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/launch-campaign.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/launch-campaign.jpg",
+                  "width": 309,
+                  "height": 183
                 },
                 "alt": "Sunset — launch campaign"
               }
@@ -1169,9 +1169,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset/coming-soon.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset/coming-soon.jpg",
+              "width": 632,
+              "height": 407
             },
             "alt": "Sunset — coming soon"
           }
@@ -1191,9 +1191,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset/digital-campaign.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset/digital-campaign.jpg",
+              "width": 632,
+              "height": 302
             },
             "alt": "Sunset — digital campaign"
           }
@@ -1210,9 +1210,9 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/website.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/website.jpg",
+                  "width": 396,
+                  "height": 248
                 },
                 "alt": "Sunset — website"
               },
@@ -1241,9 +1241,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset/weedmaps.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset/weedmaps.jpg",
+              "width": 632,
+              "height": 202
             },
             "alt": "Sunset — weedmaps"
           },
@@ -1254,18 +1254,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/printed-campaign.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/printed-campaign.jpg",
+                  "width": 310,
+                  "height": 383
                 },
                 "alt": "Sunset — printed campaign"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset/campaign-detail.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset/campaign-detail.jpg",
+                  "width": 309,
+                  "height": 383
                 },
                 "alt": "Sunset — campaign detail"
               }
@@ -1334,9 +1334,9 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/canabotanica/flower-bags.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/canabotanica/flower-bags.jpg",
+                  "width": 360,
+                  "height": 404
                 },
                 "alt": "Canabotanica — flower bags"
               },
@@ -1365,9 +1365,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/canabotanica/concentrates.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/canabotanica/concentrates.jpg",
+              "width": 633,
+              "height": 367
             },
             "alt": "Canabotanica — concentrates"
           },
@@ -1378,18 +1378,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/canabotanica/packaging-dieline.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/canabotanica/packaging-dieline.jpg",
+                  "width": 243,
+                  "height": 297
                 },
                 "alt": "Canabotanica — packaging dieline"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/canabotanica/packaging-process.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/canabotanica/packaging-process.jpg",
+                  "width": 378,
+                  "height": 297
                 },
                 "alt": "Canabotanica — packaging process"
               }
@@ -1450,9 +1450,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset-collection/identity-world.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset-collection/identity-world.jpg",
+              "width": 633,
+              "height": 420
             },
             "alt": "Sunset Collection — identity world"
           },
@@ -1473,9 +1473,9 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset-collection/identity-equation.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset-collection/identity-equation.jpg",
+                  "width": 458,
+                  "height": 162
                 },
                 "alt": "Sunset Collection — identity equation"
               }
@@ -1497,9 +1497,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset-collection/flower-packaging.png",
-              "width": 65536,
-              "height": 4292542531
+              "src": "/media/projects/sunset-collection/flower-packaging.jpg",
+              "width": 633,
+              "height": 304
             },
             "alt": "Sunset Collection — flower packaging"
           }
@@ -1516,18 +1516,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset-collection/merchandise-shirt.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset-collection/merchandise-shirt.jpg",
+                  "width": 389,
+                  "height": 376
                 },
                 "alt": "Sunset Collection — merchandise shirt"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset-collection/merchandise-cap.png",
-                  "width": 65536,
-                  "height": 4292542531
+                  "src": "/media/projects/sunset-collection/merchandise-cap.jpg",
+                  "width": 231,
+                  "height": 376
                 },
                 "alt": "Sunset Collection — merchandise cap"
               }
