@@ -30,7 +30,7 @@ uniform float uWarp;
 uniform vec3 uImpulse;
 uniform vec3 uAccent;
 uniform float uQuality;
-uniform float uColorEffects;
+uniform float uCardEffects;
 uniform float uProjects;
 uniform float uIntroTime;
 uniform float uLife;
@@ -71,7 +71,7 @@ void main() {
   vec2 p = (screen - .5) * 2.0;
   float aspect = uViewport.x / uViewport.y;
   vec2 curved = p * vec2(1.0 + .21*p.x*p.x + .11*p.y*p.y, 1.0 + .14*p.x*p.x + .035*p.y*p.y);
-  curved.x += sin(p.y * 2.4 + uTime * .35) * .004 * min(length(uSmear) * 18.0, 2.0);
+  curved.x += sin(p.y * 2.4 + uTime * .35) * .004 * min(length(uSmear) * 18.0, 2.0) * uCardEffects;
   // A diamond mosaic is a square lattice seen at 45 degrees. Choose the tile in that
   // turned frame, then measure the fragment back in the upright frame, so the tiles
   // interlock with no gaps while their artwork stays level.
@@ -81,7 +81,7 @@ void main() {
   vec2 middle = cell + .5;
   vec2 heart = vec2(middle.x - middle.y, middle.x + middle.y) * .70710678;
   float id = mod(projectAt(cell), uProjects);
-  float selected = mix(1.0 - step(.1, distance(cell, uHoverPrev)), 1.0 - step(.1, distance(cell, uHoverCell)), uHoverMix) * uHover;
+  float selected = mix(1.0 - step(.1, distance(cell, uHoverPrev)), 1.0 - step(.1, distance(cell, uHoverCell)), uHoverMix) * uHover * uCardEffects;
 
   float lens = dot(p, p);
   float depth = 1.0 - smoothstep(.3, 2.45, lens);
@@ -101,11 +101,11 @@ void main() {
   float arrived = 1.0 - pow(1.0 - arrive, 3.0);
 
   // A slow travelling swell keeps the wall alive while nothing is happening.
-  vec2 sway = vec2(sin(cell.x * 1.7 + cell.y * .9 + uTime * .55), cos(cell.y * 1.3 - cell.x * .7 + uTime * .44)) * .003 * uLife;
+  vec2 sway = vec2(sin(cell.x * 1.7 + cell.y * .9 + uTime * .55), cos(cell.y * 1.3 - cell.x * .7 + uTime * .44)) * .003 * uLife * uCardEffects;
 
   // A press sends a shockwave out through the wall, card by card.
   float shockRadius = length((cellScreen - uImpulse.xy) * vec2(aspect, 1.0));
-  float shock = sin(shockRadius * 8.0 - uImpulse.z * 5.0) * exp(-uImpulse.z * 2.4) * exp(-shockRadius * 1.1) * .014 * uLife;
+  float shock = sin(shockRadius * 8.0 - uImpulse.z * 5.0) * exp(-uImpulse.z * 2.4) * exp(-shockRadius * 1.1) * .014 * uLife * uCardEffects;
   vec2 recoil = normalize(cellScreen - uImpulse.xy + vec2(.0001)) * shock;
 
   float cardScale = mix(.58, 1.0, arrived) * (1.0 + selected * .025);
@@ -133,12 +133,14 @@ void main() {
   float energy = min(length(uSmear) * 14.0, 1.0) + uWarp * .75;
   vec2 refracted = mediaUv + vec2(ripple * (.005 * edge + energy * .02), ripple * (.008 * edge + energy * .016));
   refracted += normalize(screen - uImpulse.xy + .0001) * impulse;
+  // Mobile artwork uses undistorted UVs: no idle ripples, drag refraction or touch waves.
+  refracted = mix(uv, refracted, uCardEffects);
   // The artwork fills the diamond and eases inward on hover.
   refracted = (refracted - .5) * (1.0 - selected * .035) + .5;
 
   // Mobile and touch screens always keep the artwork's source colors.
   vec3 color = sampleCard(id, refracted);
-  if (selected > .001 && uColorEffects > .5) {
+  if (selected > .001 && uCardEffects > .5) {
     vec3 hoverColor = color;
     if (uQuality > .5) {
       float disperse = (.0007 + edge * edge * .0026) * (1.0 - min(length(uSmear) * 22.0, 1.0));
@@ -321,7 +323,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     type Pass = ReturnType<typeof build>
     let scene: Pass
     try {
-      scene = build(SCENE, ['uResolution', 'uViewport', 'uOffset', 'uTile', 'uTime', 'uSmear', 'uPointer', 'uHoverCell', 'uHoverPrev', 'uHoverMix', 'uHover', 'uWarp', 'uImpulse', 'uAccent', 'uQuality', 'uColorEffects', 'uProjects', 'uIntroTime', 'uLife'])
+      scene = build(SCENE, ['uResolution', 'uViewport', 'uOffset', 'uTile', 'uTime', 'uSmear', 'uPointer', 'uHoverCell', 'uHoverPrev', 'uHoverMix', 'uHover', 'uWarp', 'uImpulse', 'uAccent', 'uQuality', 'uCardEffects', 'uProjects', 'uIntroTime', 'uLife'])
     } catch { setFallback(true); return }
 
     const buffer = gl.createBuffer()
@@ -451,7 +453,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
         gl!.uniform1f(scene.uniforms.uHover, hover.amount)
         gl!.uniform3f(scene.uniforms.uAccent, accent[0], accent[1], accent[2])
         gl!.uniform1f(scene.uniforms.uQuality, compact ? 0 : 1)
-        gl!.uniform1f(scene.uniforms.uColorEffects, width < 760 || coarsePointer.matches ? 0 : 1)
+        gl!.uniform1f(scene.uniforms.uCardEffects, width < 760 || coarsePointer.matches ? 0 : 1)
         gl!.uniform1f(scene.uniforms.uProjects, projects.length)
         gl!.uniform1f(scene.uniforms.uIntroTime, reducedMotion ? 99 : introSeconds)
         gl!.uniform1f(scene.uniforms.uLife, motionRef.current && !reducedMotion ? 1 : 0)
