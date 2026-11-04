@@ -1450,9 +1450,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset-collection/identity-world.jpg",
-              "width": 633,
-              "height": 420
+              "src": "/media/projects/sunset-collection/identity-world.webp",
+              "width": 2560,
+              "height": 1707
             },
             "alt": "Sunset Collection — identity world"
           },
@@ -1473,9 +1473,9 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset-collection/identity-equation.jpg",
-                  "width": 458,
-                  "height": 162
+                  "src": "/media/projects/sunset-collection/identity-equation.webp",
+                  "width": 2504,
+                  "height": 646
                 },
                 "alt": "Sunset Collection — identity equation"
               }
@@ -1497,9 +1497,9 @@
           {
             "kind": "image",
             "asset": {
-              "src": "/media/projects/sunset-collection/flower-packaging.jpg",
-              "width": 633,
-              "height": 304
+              "src": "/media/projects/sunset-collection/flower-packaging.webp",
+              "width": 2560,
+              "height": 1440
             },
             "alt": "Sunset Collection — flower packaging"
           }
@@ -1516,18 +1516,18 @@
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset-collection/merchandise-shirt.jpg",
-                  "width": 389,
-                  "height": 376
+                  "src": "/media/projects/sunset-collection/merchandise-shirt.webp",
+                  "width": 1126,
+                  "height": 1407
                 },
                 "alt": "Sunset Collection — merchandise shirt"
               },
               {
                 "kind": "image",
                 "asset": {
-                  "src": "/media/projects/sunset-collection/merchandise-cap.jpg",
-                  "width": 231,
-                  "height": 376
+                  "src": "/media/projects/sunset-collection/merchandise-cap.webp",
+                  "width": 1154,
+                  "height": 2051
                 },
                 "alt": "Sunset Collection — merchandise cap"
               }

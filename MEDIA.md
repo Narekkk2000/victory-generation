@@ -46,6 +46,6 @@ The supplied `Gif Animations` folder supplies the animations for all eight new p
 
 Happy Botanist, Frost, Weeed, and Call The Queens use the existing original WebP artwork. Hardy’s, Sunset, and Canabotanica now use full-resolution artwork from authenticated Figma PDF exports (`Hardy's Cannabis.pdf`, `Sunset.pdf`, and `Canabotanica.pdf`). The 27 replacement WebPs use original embedded photographs (up to 4096px before conversion, capped at 2560px for the web) or composed panels rendered at 2× from the exported vectors. Their filenames differ from the earlier preview JPGs to avoid stale cached images. Hardy’s pre-roll tubes use the complete original photograph with its natural aspect ratio.
 
-Sunset Collection still uses the earlier individual Figma preview captures. The Figma boards and the supplied portfolio document provide the copy. Sunset Collection's copy is transcribed from Figma.
+Sunset Collection's five still images also use originals extracted from the authenticated `Sunset Collection.pdf` export, converted to WebP at quality 93 with a maximum dimension of 2560px. The Figma boards and the supplied portfolio document provide the copy. Sunset Collection's copy is transcribed from Figma.
 
 No post-implementation browser or visual review was performed, as requested for this session. Production compilation remains available through `npm run build`.
