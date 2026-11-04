@@ -1,0 +1,95 @@
+{
+  "weeed": [
+    {
+      "src": "/media/projects/weeed/brand-animation.gif",
+      "width": 1280,
+      "height": 720,
+      "type": "image",
+      "original": "Weeed_logo_animation_lime_1280.gif"
+    }
+  ],
+  "call-the-queens": [
+    {
+      "src": "/media/projects/call-the-queens/animation-1.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "Call_the_Queens_crown_logo_animation.gif"
+    },
+    {
+      "src": "/media/projects/call-the-queens/animation-2.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "Call_the_Queens_logo_animation.gif"
+    },
+    {
+      "src": "/media/projects/call-the-queens/animation-3.gif",
+      "width": 1072,
+      "height": 1928,
+      "type": "image",
+      "original": "magnific_hazethe-girl-in-the-middle-hey-were-the-queenslumi_kling_1080p_9-16_24fps_95494.gif"
+    }
+  ],
+  "sunset-collection": [
+    {
+      "src": "/media/projects/sunset-collection/animation-1.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "SC_icon_animation_1920.gif"
+    },
+    {
+      "src": "/media/projects/sunset-collection/animation-2.gif",
+      "width": 1500,
+      "height": 1500,
+      "type": "image",
+      "original": "ezgif.com-gif-maker (4).gif"
+    }
+  ],
+  "happy-botanist": [
+    {
+      "src": "/media/projects/happy-botanist/brand-animation.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "Happy_Botanist_logo_reveal_1920.gif"
+    }
+  ],
+  "canabotanica": [
+    {
+      "src": "/media/projects/canabotanica/brand-animation.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "CARO_logo_animation_1920.gif"
+    }
+  ],
+  "sunset": [
+    {
+      "src": "/media/projects/sunset/brand-animation.gif",
+      "width": 1200,
+      "height": 675,
+      "type": "image",
+      "original": "WhatsApp Video 2026-11-02 at 13.17.58 (1).gif"
+    }
+  ],
+  "hardys": [
+    {
+      "src": "/media/projects/hardys/brand-animation.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "ezgif.com-gif-maker (3).gif"
+    }
+  ],
+  "frost": [
+    {
+      "src": "/media/projects/frost/brand-animation.gif",
+      "width": 1920,
+      "height": 1080,
+      "type": "image",
+      "original": "FROST_drip_loop_8s.gif"
+    }
+  ]
+}

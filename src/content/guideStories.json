@@ -1,0 +1,1540 @@
+{
+  "frost": {
+    "brief": "Frost Cannabis Delivery needed a brand identity that captured its fun, vibrant personality while standing out in a crowded delivery market.",
+    "solution": [
+      "A full brand identity and logo was created with a signature melting effect that evokes summer heat, flavor, and a playful sense of craving. The visuals are crisp, colorful, and instantly recognizable across every platform, making Frost impossible to miss."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/frost/brand-animation.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Frost brand animation",
+            "poster": "/media/gallery/frost.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/projects/frost/logo.webp",
+              "width": 1990,
+              "height": 1032,
+              "type": "image"
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#e677bc",
+            "typeColor": "#111",
+            "typefaces": [
+              "Alphakind",
+              "Melted"
+            ],
+            "colors": [
+              "#e677bc",
+              "#8ad8f2",
+              "#fff",
+              "#000"
+            ],
+            "title": "Solution",
+            "paragraphs": [
+              "A full brand identity and logo was created with a signature melting effect that evokes summer heat, flavor, and a playful sense of craving. The visuals are crisp, colorful, and instantly recognizable across every platform, making Frost impossible to miss."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "delivery",
+        "label": "Delivery bag",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Delivery Bag",
+            "paragraphs": [
+              "Bold graphics, bright colors, and the melting motif make the delivery bag eye-catching, playful, and instantly recognizable, perfectly reflecting Frost’s energetic personality."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/frost/delivery-bags.webp",
+              "width": 2200,
+              "height": 1210,
+              "type": "image"
+            },
+            "alt": "Frost — delivery bags",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "label": "Social media",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Social Media",
+            "paragraphs": [
+              "Frost’s bright and energetic aesthetic comes to life on major platforms like Weedmaps through eye-catching banners and scroll-stopping posts. The content feels refreshing, mouthwatering, and full of movement, turning every placement into a moment that draws users in and sparks curiosity."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/frost/delivery-campaign.webp",
+              "width": 2124,
+              "height": 1158,
+              "type": "image"
+            },
+            "alt": "Frost — delivery campaign",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/frost/weedmaps.webp",
+              "width": 2200,
+              "height": 714,
+              "type": "image"
+            },
+            "alt": "Frost — weedmaps",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "icons",
+        "label": "3D icon set",
+        "blocks": [
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/frost/brand-world.webp",
+              "width": 2200,
+              "height": 834,
+              "type": "image"
+            },
+            "alt": "Frost — brand world",
+            "portrait": false
+          }
+        ]
+      }
+    ]
+  },
+  "happy-botanist": {
+    "brief": "Happy Botanist produced high-quality, lab-tested cannabis, but the brand lacked a visual identity that communicated its natural purity, scientific precision, and premium positioning.",
+    "solution": [
+      "A new identity system was created to express trust, transparency, and refined quality. Subtle THC molecule motifs highlight the scientific backbone of the brand, while dark minimalistic visuals elevate its premium feel."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/happy-botanist/brand-animation.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Happy Botanist brand animation",
+            "poster": "/media/gallery/happy-botanist.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/projects/happy-botanist/wordmark.webp",
+              "width": 2200,
+              "height": 445,
+              "type": "image"
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#f7f7f7",
+            "typeColor": "#111",
+            "typefaces": [
+              "FIGUERA VIDA"
+            ],
+            "colors": [
+              "#fff",
+              "#000"
+            ],
+            "title": "Brand Identity",
+            "paragraphs": [
+              "A minimal, science-inspired identity built around molecular patterns, clean geometry, and a refined palette. It signals precision, natural quality, and a premium, trustworthy character."
+            ]
+          },
+          {
+            "kind": "copy",
+            "title": "Naming",
+            "paragraphs": [
+              "We developed the naming Happy Botanist to capture a balance of professionalism, trust, and feel-good energy. The name evokes high-quality craftsmanship, positivity, and a modern, approachable cannabis experience rooted in expertise and care."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/happy-botanist/flower-bags.webp",
+              "width": 2124,
+              "height": 1416,
+              "type": "image"
+            },
+            "alt": "Happy Botanist — flower bags",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "packaging",
+        "label": "Packaging",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Packaging",
+            "paragraphs": [
+              "Dark, elegant packaging with transparent product windows and subtle molecular symbolism. Designed for clarity, purity, and premium shelf presence while staying true to the brand’s natural and lab-tested ethos."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/happy-botanist/flower-still-life.webp",
+              "width": 2128,
+              "height": 2200,
+              "type": "image"
+            },
+            "alt": "Happy Botanist — flower still life",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/happy-botanist/flower-campaign.webp",
+              "width": 2200,
+              "height": 971,
+              "type": "image"
+            },
+            "alt": "Happy Botanist — flower campaign",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "concentrates",
+        "label": "Concentrates",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Concentrate",
+            "paragraphs": [
+              "Concentrate packaging extends the brand’s scientific backbone into a new category. THC molecule motifs, a refined dark palette, and clear product information communicate purity and quality at a glance."
+            ]
+          },
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/happy-botanist/concentrates.webp",
+                  "width": 1836,
+                  "height": 1294,
+                  "type": "image"
+                },
+                "alt": "Happy Botanist — concentrates",
+                "portrait": false
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/happy-botanist/concentrate-detail.webp",
+                  "width": 2200,
+                  "height": 1551,
+                  "type": "image"
+                },
+                "alt": "Happy Botanist — concentrate detail",
+                "portrait": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pre-roll",
+        "label": "Single pre-roll",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Single Pre-Roll",
+            "paragraphs": [
+              "The single pre-roll brings Happy Botanist’s dark, minimal language to a compact format. Subtle molecular details and clean typography keep it precise and premium, carrying the same trusted, lab-tested character as the full line."
+            ]
+          },
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/happy-botanist/pre-rolls.webp",
+                  "width": 1260,
+                  "height": 1680,
+                  "type": "image"
+                },
+                "alt": "Happy Botanist — pre rolls",
+                "portrait": false
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/happy-botanist/pre-roll-detail.webp",
+                  "width": 1390,
+                  "height": 1680,
+                  "type": "image"
+                },
+                "alt": "Happy Botanist — pre roll detail",
+                "portrait": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "banners",
+        "label": "Banners & Weedmaps",
+        "blocks": [
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/happy-botanist/weedmaps.webp",
+              "width": 2200,
+              "height": 1009,
+              "type": "image"
+            },
+            "alt": "Happy Botanist — weedmaps",
+            "portrait": false
+          }
+        ]
+      }
+    ]
+  },
+  "weeed": {
+    "brief": "Weeed needed a bold, modern identity that reflected its wide product selection and positioned the shop as a premium, go-to cannabis destination.",
+    "solution": [
+      "A complete visual system was developed, including a logo, brand identity, and custom design assets that highlight variety, quality, and an elevated shopping experience. A distinctive trolley-inspired logo communicates Weeed’s role as the ultimate one-stop cannabis shop."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/weeed/brand-animation.gif",
+              "width": 1280,
+              "height": 720
+            },
+            "alt": "Weeed brand animation",
+            "poster": "/media/gallery/weeed.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/projects/weeed/trolley-identity.webp",
+              "width": 2200,
+              "height": 1902,
+              "type": "image"
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#111",
+            "typeColor": "#fff",
+            "typefaces": [
+              "Gilroy Family"
+            ],
+            "colors": [
+              "#a1dc45",
+              "#489628",
+              "#000"
+            ],
+            "title": "Brand Identity",
+            "paragraphs": [
+              "A dynamic, energetic identity built on bold visuals, modern patterns, and a clean, expressive style. The brand communicates freedom, enjoyment, and a vibrant shopping culture."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/weeed/brand-campaign.webp",
+              "width": 2124,
+              "height": 1158,
+              "type": "image"
+            },
+            "alt": "Weeed — brand campaign",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "label": "Social media",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Social Media",
+            "paragraphs": [
+              "High-impact visuals that strengthen presence both in-store and online. Clean compositions, strong messaging, and bold graphics highlight product variety and boost visibility."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/weeed/slogan.webp",
+              "width": 2200,
+              "height": 729,
+              "type": "image"
+            },
+            "alt": "Weeed — slogan",
+            "portrait": false
+          },
+          {
+            "kind": "row",
+            "layout": "wide-left",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/weeed/keychain.webp",
+                  "width": 2200,
+                  "height": 1373,
+                  "type": "image"
+                },
+                "alt": "Weeed — keychain",
+                "portrait": false
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/weeed/sticker.webp",
+                  "width": 1142,
+                  "height": 1131,
+                  "type": "image"
+                },
+                "alt": "Weeed — sticker",
+                "portrait": false
+              }
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/weeed/weedmaps.webp",
+              "width": 2200,
+              "height": 714,
+              "type": "image"
+            },
+            "alt": "Weeed — weedmaps",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/weeed/digital-presence.webp",
+              "width": 2200,
+              "height": 1457,
+              "type": "image"
+            },
+            "alt": "Weeed — digital presence",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/weeed/social-campaign.webp",
+              "width": 2200,
+              "height": 971,
+              "type": "image"
+            },
+            "alt": "Weeed — social campaign",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/weeed/seasonal-campaign.webp",
+              "width": 2200,
+              "height": 1238,
+              "type": "image"
+            },
+            "alt": "Weeed — seasonal campaign",
+            "portrait": false
+          }
+        ]
+      }
+    ]
+  },
+  "call-the-queens": {
+    "brief": "Many cannabis delivery services operate with minimal brand identity, resulting in experiences that feel anonymous and purely transactional. For Call The Queens, the objective was to create a brand that could transform ordering into a memorable cultural experience.",
+    "solution": [
+      "We developed the complete concept behind Call The Queens, including the naming, narrative structure, characters, and visual identity. Rather than positioning the service around products, the brand reframes ordering as an interaction with a personality. Customers call a Queen who represents the mood they want to experience.",
+      "Three characters define the brand universe: Haze, Lumi, and Selenia, each representing a distinct emotional state. This structure transforms the delivery process into a ritual while creating opportunities for storytelling, collectibles, loyalty systems, and community-driven experiences."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/call-the-queens/animation-2.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Call The Queens brand animation",
+            "poster": "/media/gallery/call-the-queens.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/projects/call-the-queens/brand-mark.webp",
+              "width": 1292,
+              "height": 1220,
+              "type": "image"
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#8736d4",
+            "typeColor": "#fff",
+            "typefaces": [
+              "Kumich Sans"
+            ],
+            "colors": [
+              "#8736d4",
+              "#cc76f5",
+              "#f4d5fa",
+              "#000"
+            ],
+            "title": "Brand Identity",
+            "paragraphs": [
+              "The name Call The Queens establishes the foundation of the brand narrative. Instead of browsing product categories, customers choose the Queen that reflects their desired mood or experience.",
+              "Haze represents energy, sociability, and high-vibe moments. Lumi represents brightness, playfulness, and uplifting moods. Selenia represents calm, introspection, and relaxed experiences. These personalities act as emotional guides within the brand system and provide a consistent framework for visual communication, campaigns, and future storytelling."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/delivery-scooter.webp",
+              "width": 1858,
+              "height": 1014,
+              "type": "image"
+            },
+            "alt": "Call The Queens — delivery scooter",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "community",
+        "label": "Gamification & community",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Gamification & Community",
+            "paragraphs": [
+              "The concept expands into a gamified loyalty structure designed to strengthen engagement and encourage repeat orders.",
+              "Queen Mood Points reward customers for ordering within specific moods, unlocking perks and experiences associated with each Queen.",
+              "Each delivery also includes collectible Queen cards or stickers. Completing collections unlocks benefits such as discounts, VIP access, or limited releases, transforming deliveries into collectible moments that reinforce brand engagement.",
+              "The brand ecosystem further extends into community-driven experiences such as roller-skate parties, art drops, and live DJ pop-ups, allowing the Queens to exist beyond digital platforms and strengthening cultural relevance."
+            ]
+          },
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/call-the-queens/social-location.webp",
+                  "width": 1268,
+                  "height": 1586,
+                  "type": "image"
+                },
+                "alt": "Call The Queens — social location",
+                "portrait": false
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/call-the-queens/social-mylar.webp",
+                  "width": 1276,
+                  "height": 1594,
+                  "type": "image"
+                },
+                "alt": "Call The Queens — social mylar",
+                "portrait": false
+              }
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/queens-story.webp",
+              "width": 2200,
+              "height": 833,
+              "type": "image"
+            },
+            "alt": "Call The Queens — queens story",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "characters",
+        "label": "Brand concept & characters",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Brand Concept & Characters",
+            "paragraphs": [
+              "The name Call The Queens establishes the foundation of the brand narrative. Instead of browsing product categories, customers choose the Queen that reflects their desired mood or experience.",
+              "Haze represents energy, sociability, and high-vibe moments. Lumi represents brightness, playfulness, and uplifting moods. Selenia represents calm, introspection, and relaxed experiences. These personalities act as emotional guides within the brand system and provide a consistent framework for visual communication, campaigns, and future storytelling."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/characters.webp",
+              "width": 2200,
+              "height": 832,
+              "type": "image"
+            },
+            "alt": "Call The Queens — characters",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/queens-moods.webp",
+              "width": 2200,
+              "height": 412,
+              "type": "image"
+            },
+            "alt": "Call The Queens — queens moods",
+            "portrait": false
+          },
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/call-the-queens/animation-1.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Call The Queens brand animation",
+            "poster": "/media/gallery/call-the-queens.webp"
+          },
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/call-the-queens/animation-3.gif",
+              "width": 1072,
+              "height": 1928
+            },
+            "alt": "Call The Queens brand animation",
+            "poster": "/media/projects/call-the-queens/queens-story.webp"
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "label": "Social media",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Social Media",
+            "paragraphs": [
+              "We built the brand’s social media around the Queens themselves. Haze, Lumi, and Selenia front the content, with mood-driven posts and character moments that make the feed feel like an ongoing story rather than a product list."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/social-handoff.webp",
+              "width": 1278,
+              "height": 1586,
+              "type": "image"
+            },
+            "alt": "Call The Queens — social handoff",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/weedmaps.webp",
+              "width": 2200,
+              "height": 714,
+              "type": "image"
+            },
+            "alt": "Call The Queens — weedmaps",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/weedmaps-queens.webp",
+              "width": 2200,
+              "height": 714,
+              "type": "image"
+            },
+            "alt": "Call The Queens — weedmaps queens",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "bags",
+        "label": "Delivery bags",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Delivery Bags",
+            "paragraphs": [
+              "Branded delivery bags bring the Queens’ world to the customer’s door. Bold color, the crown mark, and spray-paint textures turn every handoff into a recognizable brand moment."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/delivery-bags.webp",
+              "width": 2200,
+              "height": 1323,
+              "type": "image"
+            },
+            "alt": "Call The Queens — delivery bags",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/social-delivery.webp",
+              "width": 1270,
+              "height": 1586,
+              "type": "image"
+            },
+            "alt": "Call The Queens — social delivery",
+            "portrait": false
+          },
+          {
+            "kind": "copy",
+            "title": "Delivery Mylar Bags",
+            "paragraphs": [
+              "Custom mylar bags carry the identity onto the product itself. Vivid graphics and character details keep every order on-brand, making the unboxing part of the collectible experience."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/queens-banner.webp",
+              "width": 2200,
+              "height": 833,
+              "type": "image"
+            },
+            "alt": "Call The Queens — queens banner",
+            "portrait": false
+          }
+        ]
+      },
+      {
+        "id": "web",
+        "label": "Website & game concept",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Website Design",
+            "paragraphs": [
+              "The website is designed around the brand’s core idea: choosing a Queen instead of browsing a catalog. Visitors pick a mood, meet the Queen behind it, and order through an experience that feels personal, playful, and easy to navigate."
+            ]
+          },
+          {
+            "kind": "copy",
+            "title": "Coming Soon Game Concept",
+            "paragraphs": [
+              "For the pre-launch phase, we developed a Coming Soon game concept built around spray painting. Visitors pick up a virtual spray can and tag the wall in the brand’s street-art style, turning the wait for launch into a playful, hands-on introduction to the Queens."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/merchandise.webp",
+              "width": 2200,
+              "height": 1228,
+              "type": "image"
+            },
+            "alt": "Call The Queens — merchandise",
+            "portrait": false
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/call-the-queens/brand-banner.webp",
+              "width": 2200,
+              "height": 971,
+              "type": "image"
+            },
+            "alt": "Call The Queens — brand banner",
+            "portrait": false
+          }
+        ]
+      }
+    ]
+  },
+  "hardys": {
+    "brief": "A brand built on human connection had no visual system that conveyed it. Hardy’s needed a powerful symbol, strong shelf presence, and a unified identity that felt warm, social, and unmistakably theirs.",
+    "solution": [
+      "We reimagined the brand through the language of hands, crafting an iconic “H” from Michelangelo-inspired gestures and extending the idea into patterns, packaging, and merch. The result: a bold, cohesive identity that radiates unity, optimism, and instant recognition."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/hardys/brand-animation.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Hardy’s Cannabis brand animation",
+            "poster": "/media/gallery/hardys.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/gallery/hardys.webp",
+              "width": 2200,
+              "height": 1375
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#ef802a",
+            "typeColor": "#111",
+            "typefaces": [
+              "Mont Family"
+            ],
+            "colors": [
+              "#e83d99",
+              "#ef802a",
+              "#f4b73f",
+              "#e1e947",
+              "#95b836",
+              "#438952",
+              "#000"
+            ],
+            "title": "The “Gesture + Color” Concept",
+            "paragraphs": [
+              "We transformed Hardy’s hand symbolism into a full product-coding system. Each product category gets its own gesture and dedicated color, creating a clear, cohesive, and instantly recognizable identity across the entire lineup."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/hardys/flower-packaging.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Hardy’s Cannabis — flower packaging"
+          }
+        ]
+      },
+      {
+        "id": "packaging",
+        "label": "Packaging",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Packaging",
+            "paragraphs": [
+              "Hardy’s packaging delivers attitude and clarity. Unique gestures and colors define each strain, creating strong shelf impact and a bold, unified look that feels rebellious yet refined."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/hardys/flower-range.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Hardy’s Cannabis — flower range"
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/hardys/pre-roll-tins.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Hardy’s Cannabis — pre roll tins"
+          },
+          {
+            "kind": "row",
+            "layout": "wide-left",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/hardys/pre-roll-tubes.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Hardy’s Cannabis — pre roll tubes"
+              },
+              {
+                "kind": "copy",
+                "title": "Pre-Roll Packaging",
+                "paragraphs": [
+                  "For Hardy’s pre-roll line, we designed two formats: a metal tin for the 5-pack and a glass tube for singles. A matte black base with a subtle tone-on-tone hand pattern gives both a refined finish, and bright accent colors bring the energy. A hidden message inside the lid adds a surprise, making the packaging a small brand moment."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchandise",
+        "label": "Merchandise",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Merchandise",
+            "paragraphs": [
+              "We brought Hardy’s spirit into physical form with expressive graphics, signature colors, and premium materials. Every piece extends the brand’s identity with confidence, energy, and lasting quality."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/hardys/merchandise-shirt.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Hardy’s Cannabis — merchandise shirt"
+          },
+          {
+            "kind": "row",
+            "layout": "wide-right",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/hardys/embroidered-cap.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Hardy’s Cannabis — embroidered cap"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/hardys/hoodie.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Hardy’s Cannabis — hoodie"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sunset": {
+    "brief": "Sunset needed a full-scale rebrand to unify its presence across social media, Weedmaps, web, and retail. The challenge was to redesign the brand while preserving its roots, creating a cohesive, recognizable system with a warm, modern, and social feel.",
+    "solution": [
+      "We developed a complete rebranding and retail design system for Sunset, combining logo refinement with a full redesign of the store interior.",
+      "The updated identity introduces a cleaner, more modern logotype supported by a fresh visual direction. This new aesthetic was translated into a redesigned retail concept centered around a premium flower island centerpiece that serves as the focal point of the space.",
+      "The interior layout was carefully developed through detailed measurements, spatial planning, and renders to guide customer flow naturally through the store while maximizing product exposure and visual impact."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/sunset/brand-animation.gif",
+              "width": 1200,
+              "height": 675
+            },
+            "alt": "Sunset brand animation",
+            "poster": "/media/gallery/sunset.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/gallery/sunset.webp",
+              "width": 2200,
+              "height": 1375
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#f7f7f7",
+            "typeColor": "#111",
+            "typefaces": [
+              "Agbalumo",
+              "Provicali",
+              "Heathergreen"
+            ],
+            "colors": [
+              "#eb7639",
+              "#f2be41",
+              "#fbef67",
+              "#f8e6d9",
+              "#000"
+            ],
+            "title": "Brand Identity",
+            "paragraphs": [
+              "The Sunset logo redesign focused on evolving a well-recognized identity while preserving the brand’s familiar essence. Rather than replacing the original mark, the goal was to refine it into a cleaner, more modern, and highly scalable system suitable for both digital and physical applications. The palm icon was refined to achieve a sharper, more balanced visual presence while maintaining the recognizable symbolism valued by existing customers."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset/logo-evolution.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset — logo evolution"
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset/identity-sketch.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset — identity sketch"
+          }
+        ]
+      },
+      {
+        "id": "retail",
+        "label": "Retail design",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Retail Design",
+            "paragraphs": [
+              "For Sunset, we developed the full retail concept, both interior and exterior. Starting from the brand’s warm orange identity and palm icon, we planned every part of the space, from the storefront and signage to shelving, lighting and merch walls. We handled concept, 3D visualization, measurements and production details, so the store feels like a natural extension of the brand."
+            ]
+          },
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/retail-wall.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — retail wall"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/retail-interior.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — retail interior"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "furniture",
+        "label": "Custom furniture",
+        "blocks": [
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "copy",
+                "title": "Custom Furniture",
+                "paragraphs": [
+                  "Every piece of furniture in the Sunset store was designed for its space and the products it holds. From flower jars to accessories and merch, each category got a fixture made for it. We took each piece from hand sketch to 3D render to technical drawings, so the finished store is both functional and unmistakably Sunset."
+                ]
+              },
+              {
+                "kind": "row",
+                "layout": "pair",
+                "children": [
+                  {
+                    "kind": "image",
+                    "asset": {
+                      "src": "/media/projects/sunset/furniture-sketch.png",
+                      "width": 65536,
+                      "height": 4292542531
+                    },
+                    "alt": "Sunset — furniture sketch"
+                  },
+                  {
+                    "kind": "image",
+                    "asset": {
+                      "src": "/media/projects/sunset/furniture-render.png",
+                      "width": 65536,
+                      "height": 4292542531
+                    },
+                    "alt": "Sunset — furniture render"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/island-render.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — island render"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/island-lighting.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — island lighting"
+              }
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset/storefront.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset — storefront"
+          }
+        ]
+      },
+      {
+        "id": "launch",
+        "label": "Launch campaign",
+        "blocks": [
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "copy",
+                "title": "Launch Campaign",
+                "paragraphs": [
+                  "To build excitement before Sunset opened, we created a full launch concept for social media and the streets. Bold “Coming Soon” posters, teaser content and branded merch built anticipation, and the Weedmaps listing and “Order Now” visuals turned that buzz into customers. Every piece carried the same orange palette and palm silhouettes, so the brand was recognizable before the doors even opened."
+                ]
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/launch-campaign.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — launch campaign"
+              }
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset/coming-soon.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset — coming soon"
+          }
+        ]
+      },
+      {
+        "id": "digital",
+        "label": "Digital & platform presence",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Digital & Platform Presence",
+            "paragraphs": [
+              "To ensure brand consistency across digital platforms, we designed a series of Weedmaps banners aligned with the new identity, maintaining the same clean, bright visual language used in the store."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset/digital-campaign.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset — digital campaign"
+          }
+        ]
+      },
+      {
+        "id": "website",
+        "label": "Website",
+        "blocks": [
+          {
+            "kind": "row",
+            "layout": "wide-left",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/website.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — website"
+              },
+              {
+                "kind": "copy",
+                "title": "Website",
+                "paragraphs": [
+                  "The new Sunset website is built around a signature palm scroll effect, with the palm moving through the page alongside 3D models as visitors scroll. Renders and a full 3D model of the shop bring the redesigned retail space online, so customers can explore the store before they visit."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "label": "Social media & campaigns",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Social Media & Campaigns",
+            "paragraphs": [
+              "We set up Sunset as more than a dispensary: a media brand for the cannabis industry. The monthly social media concept mixes educational, informative and entertaining content with sales posts, all styled like magazine issues. We designed a full set of post templates for consistent, easy production, plus seasonal Weedmaps banners like the 4/20 campaign to drive traffic and orders."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset/weedmaps.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset — weedmaps"
+          },
+          {
+            "kind": "row",
+            "layout": "pair",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/printed-campaign.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — printed campaign"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset/campaign-detail.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset — campaign detail"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "canabotanica": {
+    "brief": "Canabotanica needed a clearer visual system to organize its growing product range and move the brand into a more modern, premium space.",
+    "solution": [
+      "A precise, streamlined design language was created to improve clarity and hierarchy across all formats. Mylar bags, glass jars, and tin boxes were redesigned for stronger communication and shelf presence. The CABO logo was enhanced with category-specific icons placed inside the O, making navigation intuitive while keeping the brand cohesive."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/canabotanica/brand-animation.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Canabotanica brand animation",
+            "poster": "/media/gallery/canabotanica.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/gallery/canabotanica.webp",
+              "width": 2200,
+              "height": 1375
+            },
+            "logoBackground": "#dd5d32",
+            "typeBackground": "#dd5d32",
+            "typeColor": "#fff",
+            "typefaces": [
+              "Poppins"
+            ],
+            "colors": [
+              "#213f44",
+              "#5277b5",
+              "#83ba52",
+              "#f2b441",
+              "#dd5d32"
+            ],
+            "title": "Brand Identity",
+            "paragraphs": [
+              "A refined, minimal aesthetic built on crisp typography, balanced layouts, and a premium tone. The adaptive logo adds a functional layer of storytelling, giving each category its own subtle signature without breaking consistency."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "packaging",
+        "label": "Packaging",
+        "blocks": [
+          {
+            "kind": "row",
+            "layout": "wide-left",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/canabotanica/flower-bags.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Canabotanica — flower bags"
+              },
+              {
+                "kind": "copy",
+                "title": "Packaging",
+                "paragraphs": [
+                  "A unified packaging ecosystem covering flower (indica, sativa, hybrid), pre-rolls, and rosin (standard and premium). Each line features its own color logic, clean structure, and elevated materials to enhance visibility and recognition. From bags and boxes to jars and tins, every product was crafted to feel modern and unified."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "concentrates",
+        "label": "Concentrates & rosin",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Concentrates & Rosin",
+            "paragraphs": [
+              "Premium concentrates and rosin use clean layouts, refined materials, and subtle accents to convey quality and craftsmanship in a modern, premium package."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/canabotanica/concentrates.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Canabotanica — concentrates"
+          },
+          {
+            "kind": "row",
+            "layout": "wide-right",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/canabotanica/packaging-dieline.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Canabotanica — packaging dieline"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/canabotanica/packaging-process.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Canabotanica — packaging process"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sunset-collection": {
+    "brief": "Sunset needed its own product line, one that stays connected to the retail brand but stands on its own. The challenge was to build a warm, laid-back and premium identity from scratch.",
+    "solution": [
+      "We created Sunset Collection from the ground up, including the name, logo, packaging and visual world, all inspired by the California sunset."
+    ],
+    "sections": [
+      {
+        "id": "identity",
+        "label": "Brand identity",
+        "blocks": [
+          {
+            "kind": "animation",
+            "asset": {
+              "src": "/media/projects/sunset-collection/animation-1.gif",
+              "width": 1920,
+              "height": 1080
+            },
+            "alt": "Sunset Collection brand animation",
+            "poster": "/media/gallery/sunset-collection.webp",
+            "aspectRatio": 2.54
+          },
+          {
+            "kind": "identity",
+            "logo": {
+              "src": "/media/gallery/sunset-collection.webp",
+              "width": 2200,
+              "height": 1375
+            },
+            "logoBackground": "#000",
+            "typeBackground": "#f7eaa0",
+            "typeColor": "#111",
+            "typefaces": [
+              "Rubik",
+              "Racleys Family"
+            ],
+            "colors": [
+              "#e25f32",
+              "#de823c",
+              "#f7eaa0",
+              "#5277b5",
+              "#7ca68c",
+              "#000"
+            ],
+            "title": "The “SC + Palm + Sun” Concept",
+            "paragraphs": [
+              "The brand initials, a palm tree and the sun come together in one bold mark. The palm cuts through the letters and the “C” becomes a setting sun."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset-collection/identity-world.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset Collection — identity world"
+          },
+          {
+            "kind": "row",
+            "layout": "wide-right",
+            "children": [
+              {
+                "kind": "animation",
+                "asset": {
+                  "src": "/media/projects/sunset-collection/animation-2.gif",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "alt": "Sunset Collection brand animation",
+                "poster": "/media/gallery/sunset-collection.webp"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset-collection/identity-equation.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset Collection — identity equation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "packaging",
+        "label": "Packaging",
+        "blocks": [
+          {
+            "kind": "copy",
+            "title": "Packaging",
+            "paragraphs": [
+              "Retro stripes, palm silhouettes and a color for each strain type (orange for sativa, blue for indica, green for hybrid) bring the California mood to the shelf. Pre-rolls, vape cartridges and shake are now in development."
+            ]
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "src": "/media/projects/sunset-collection/flower-packaging.png",
+              "width": 65536,
+              "height": 4292542531
+            },
+            "alt": "Sunset Collection — flower packaging"
+          }
+        ]
+      },
+      {
+        "id": "merchandise",
+        "label": "Merchandise",
+        "blocks": [
+          {
+            "kind": "row",
+            "layout": "wide-left",
+            "children": [
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset-collection/merchandise-shirt.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset Collection — merchandise shirt"
+              },
+              {
+                "kind": "image",
+                "asset": {
+                  "src": "/media/projects/sunset-collection/merchandise-cap.png",
+                  "width": 65536,
+                  "height": 4292542531
+                },
+                "alt": "Sunset Collection — merchandise cap"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

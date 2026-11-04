@@ -1,0 +1,35 @@
+/* Effects belong to the existing gallery, cards, and project covers. */
+.portfolio-shell[data-home=true] .studio-header,.portfolio-shell[data-home=true] .studio-status,.portfolio-shell[data-home=true] .studio-tools,.portfolio-shell[data-home=true] .navigation-dock{display:none}
+.portfolio-shell.is-gallery .gallery{inset:0;border:0}
+:root{--space:#070b12;--ice:#8cdaff}
+body{background:var(--space)}
+.studio-header{background:linear-gradient(#070b12 70%,#070b1200)}
+.studio-signature{color:#8c9da9}
+.studio-asterisk{color:#ff8d72;text-shadow:0 0 24px #ff795f4d}
+.gallery{left:0;right:0;background:#070b12;border-top-color:#ffffff0a;border-bottom-color:#ffffff0a;mask-image:none}
+.studio-tools{color:#87a4b7}
+.navigation-dock{background:#111923;border-color:#a9d7f015;box-shadow:0 9px 40px #0004}
+.studio-status{max-width:300px}
+.motion-backdrop{background:#070b12!important;background-image:radial-gradient(ellipse at 35% 50%,color-mix(in srgb,var(--project-color,#ff795f) 9%,transparent),transparent 65%)!important}
+.viewer-media{box-shadow:0 0 0 1px #d5edff1a,0 0 90px -45px var(--project-color);isolation:isolate}
+.project-card{transform:perspective(800px) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg));transition:transform .18s ease-out,box-shadow .25s;transform-style:preserve-3d}
+.project-card:hover{box-shadow:0 15px 35px -20px #000c,0 0 0 1px #a6dbff2b}
+.card-hologram{position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .25s;background:radial-gradient(ellipse at var(--shine-x,50%) var(--shine-y,50%),#d9edff22,transparent 60%);mix-blend-mode:screen;z-index:3}
+.project-card:hover .card-hologram{opacity:1}
+.card-rim{box-shadow:inset 0 0 0 1px #e0efff23,inset 0 1px 0 #fff2}
+.project-hero>video,.project-hero>img{animation:none;transform:scale(calc(1 + var(--hero-scroll,0) * .08)) translateY(calc(var(--hero-scroll,0) * 65px));transform-origin:center}
+.hero-wordmark{transform:translateY(calc(var(--hero-scroll,0) * -55px));opacity:calc(1 - var(--hero-scroll,0));animation:none}
+.hero-wordmark:before{color:#bed3dc}
+.hero-shade{background:linear-gradient(#070b1259,transparent 26%,#070b1233 56%,#070b12e0)}
+.project-page{background:#070b12}
+.project-constellation{border-color:#b9d9ed1a}
+.constellation-map{background-image:radial-gradient(#bde3ff26 .7px,transparent .7px),radial-gradient(ellipse at center,#17293655,transparent 65%)}
+.constellation-lines g.is-active path{stroke:#a8e2ff}
+.constellation-core{background:radial-gradient(circle at 30% 20%,#223a4a,#0b131d 80%);border-color:#b7def838;box-shadow:0 0 40px #9ee0ff09,inset 0 1px 0 #e5f7ff19}
+.constellation-core:before{border-color:#b7dffb24}
+.studio-effect-controls{display:flex;align-items:center;gap:14px}
+.field-warp-toggle{display:flex;align-items:center;gap:6px;font-size:9px;color:#7f939f;padding:2px 0;transition:color .2s}
+.field-warp-toggle[aria-pressed=true]{color:var(--signal)}
+.field-warp-toggle:hover{color:#d5edff}.field-warp-toggle:disabled{opacity:.35;cursor:default}
+@media(max-width:600px){.gallery{left:0;right:0;top:166px;bottom:121px;mask-image:none}.project-card{transform:none!important;transform-style:flat}.card-hologram{display:none}.viewer-media{box-shadow:0 0 0 1px #d5edff1a,0 0 50px -35px var(--project-color)}.studio-effect-controls{gap:13px}}
+@media(prefers-reduced-motion:reduce){.hero-wordmark,.project-hero>video,.project-hero>img{transform:none!important}.card-hologram{display:none}.project-card{transform:none}}

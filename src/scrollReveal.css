@@ -1,0 +1,17 @@
+/* Progressive enhancement: content stays visible until its story observer is ready. */
+[data-scroll-reveal]{--reveal-ease:cubic-bezier(.22,1,.36,1);--reveal-duration:1100ms;--reveal-delay:0ms}
+.scroll-reveal{min-width:0}
+[data-scroll-reveal=text]{position:relative}
+.reveal-word{display:inline-block;overflow:clip;vertical-align:top;padding-bottom:.16em;margin-bottom:-.16em}
+.reveal-word>span{display:inline-block;transform:translateY(0);opacity:1;transition:transform 750ms var(--reveal-ease),opacity 550ms ease;transition-delay:var(--word-delay,0ms)}
+[data-scroll-reveal=text][data-reveal-state=pending] .reveal-word>span{transform:translateY(110%);opacity:0}
+[data-scroll-reveal=media]{overflow:clip;isolation:isolate;transform-origin:50% 50%;clip-path:inset(0 round 3px);transform:translateY(0) scale(1);opacity:1;transition:clip-path var(--reveal-duration) var(--reveal-ease),transform var(--reveal-duration) var(--reveal-ease),opacity 650ms ease;transition-delay:var(--reveal-delay)}
+[data-scroll-reveal=media]>img{transform:scale(1);transform-origin:50% 50%;transition:transform 1400ms var(--reveal-ease);transition-delay:var(--reveal-delay)}
+[data-scroll-reveal=media][data-reveal-state=pending]{clip-path:inset(9% 9% round 8px);transform:translateY(34px) scale(.94);opacity:0}
+[data-scroll-reveal=media][data-reveal-state=pending]>img{transform:scale(1.12)}
+[data-scroll-reveal=panel]{transform:translateY(0);opacity:1;transition:transform 850ms var(--reveal-ease),opacity 650ms ease;transition-delay:var(--reveal-delay)}
+[data-scroll-reveal=panel][data-reveal-state=pending]{transform:translateY(28px);opacity:0}
+@media(max-width:760px){[data-scroll-reveal=media][data-reveal-state=pending]{transform:translateY(20px) scale(.97);clip-path:inset(6% 6% round 6px)}}
+@media(prefers-reduced-motion:reduce){[data-scroll-reveal],.reveal-word>span,[data-scroll-reveal=media]>img{transition:none!important;transform:none!important;clip-path:none!important;opacity:1!important}}
+html[data-effects=off] [data-scroll-reveal],html[data-effects=off] .reveal-word>span,html[data-effects=off] [data-scroll-reveal=media]>img{transition:none!important;transform:none!important;clip-path:none!important;opacity:1!important}
+@media print{[data-scroll-reveal],.reveal-word>span,[data-scroll-reveal=media]>img{transition:none!important;transform:none!important;clip-path:none!important;opacity:1!important}}
