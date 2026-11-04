@@ -30,6 +30,7 @@ uniform float uWarp;
 uniform vec3 uImpulse;
 uniform vec3 uAccent;
 uniform float uQuality;
+uniform float uColorEffects;
 uniform float uProjects;
 uniform float uIntroTime;
 uniform float uLife;
@@ -135,9 +136,9 @@ void main() {
   // The artwork fills the diamond and eases inward on hover.
   refracted = (refracted - .5) * (1.0 - selected * .035) + .5;
 
-  // Idle cards keep their source colors. Fade the glass treatment in only on hover.
+  // Mobile and touch screens always keep the artwork's source colors.
   vec3 color = sampleCard(id, refracted);
-  if (selected > .001) {
+  if (selected > .001 && uColorEffects > .5) {
     vec3 hoverColor = color;
     if (uQuality > .5) {
       float disperse = (.0007 + edge * edge * .0026) * (1.0 - min(length(uSmear) * 22.0, 1.0));
@@ -272,7 +273,8 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches
     // A phone runs a lighter field with smaller atlas tiles.
     const connection = (navigator as { connection?: { saveData?: boolean } }).connection
-    const compact = innerWidth < 760 || matchMedia('(pointer: coarse)').matches
+    const coarsePointer = matchMedia('(pointer: coarse)')
+    const compact = innerWidth < 760 || coarsePointer.matches
     const frugal = compact || Boolean(connection?.saveData) || ((navigator as { deviceMemory?: number }).deviceMemory ?? 8) < 4
     const offset = { x: 0, y: 0 }
     const target = { x: 0, y: 0 }
@@ -319,7 +321,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     type Pass = ReturnType<typeof build>
     let scene: Pass
     try {
-      scene = build(SCENE, ['uResolution', 'uViewport', 'uOffset', 'uTile', 'uTime', 'uSmear', 'uPointer', 'uHoverCell', 'uHoverPrev', 'uHoverMix', 'uHover', 'uWarp', 'uImpulse', 'uAccent', 'uQuality', 'uProjects', 'uIntroTime', 'uLife'])
+      scene = build(SCENE, ['uResolution', 'uViewport', 'uOffset', 'uTile', 'uTime', 'uSmear', 'uPointer', 'uHoverCell', 'uHoverPrev', 'uHoverMix', 'uHover', 'uWarp', 'uImpulse', 'uAccent', 'uQuality', 'uColorEffects', 'uProjects', 'uIntroTime', 'uLife'])
     } catch { setFallback(true); return }
 
     const buffer = gl.createBuffer()
@@ -449,6 +451,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
         gl!.uniform1f(scene.uniforms.uHover, hover.amount)
         gl!.uniform3f(scene.uniforms.uAccent, accent[0], accent[1], accent[2])
         gl!.uniform1f(scene.uniforms.uQuality, compact ? 0 : 1)
+        gl!.uniform1f(scene.uniforms.uColorEffects, width < 760 || coarsePointer.matches ? 0 : 1)
         gl!.uniform1f(scene.uniforms.uProjects, projects.length)
         gl!.uniform1f(scene.uniforms.uIntroTime, reducedMotion ? 99 : introSeconds)
         gl!.uniform1f(scene.uniforms.uLife, motionRef.current && !reducedMotion ? 1 : 0)
