@@ -16,8 +16,6 @@ function StoryBlock({ block, project }: { block: GuideBlock; project: Project })
     case 'copy': return <div className="guide-copy"><RevealText as="h2">{block.title}</RevealText>{block.paragraphs.map(text => <RevealText key={text}>{text}</RevealText>)}</div>
     case 'row': return <div className={`guide-row guide-row-${block.layout || 'pair'}`}>{block.children.map((child, index) => <StoryBlock key={index} block={child} project={project} />)}</div>
     case 'identity': return <div className="guide-identity">
-      <div className="guide-logo" data-scroll-reveal="panel" style={{ background: block.logoBackground }}><img src={block.logo.src} width={block.logo.width} height={block.logo.height} alt={`${project.title} identity`} loading="lazy" /></div>
-      <div className="guide-typography" data-scroll-reveal="panel" style={{ background: block.typeBackground, color: block.typeColor || '#111' }}><RevealText as="h2">Typography</RevealText><div>{block.typefaces.map(name => <span key={name}>{name}</span>)}</div></div>
       <StoryBlock project={project} block={{kind:'copy',title:block.title,paragraphs:block.paragraphs}} />
       <div className="guide-palette" data-scroll-reveal="panel"><RevealText as="h2">Color Palette</RevealText><div>{block.colors.map(color => <span key={color} style={{ background: color }} aria-label={color} />)}</div></div>
     </div>

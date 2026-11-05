@@ -67,8 +67,6 @@ export default function FrostiezCaseStudy({ onBack }: { onBack: () => void }) {
           <section id="frostiez-identity" aria-label="Brand identity">
             <Animation name="brand-animation" poster="brand-banner" alt="Frostiez animated brand banner" />
             <div className="frostiez-identity-grid">
-              <div className="frostiez-logo-tile" data-scroll-reveal="panel"><img src="/media/projects/frostiez/wordmark.svg" alt="Frostiez wordmark" width={400} height={220} /></div>
-              <div className="frostiez-type-tile" data-scroll-reveal="panel"><RevealText as="h2">Typography</RevealText><div><span>Armguard</span><span>BEBAS NEUE</span><span>BANGERS</span></div></div>
               <Copy title="Brand Identity" section="Rebranding" />
               <div className="frostiez-palette" data-scroll-reveal="panel"><RevealText as="h2">Color Palette</RevealText><div aria-label="Orange, yellow, blue, sky blue, teal, and black"><i /><i /><i /><i /><i /><i /></div></div>
             </div>

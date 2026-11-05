@@ -55,7 +55,7 @@ The gallery includes Frostiez, Happy Botanist, Frost, Weeed, Call The Queens, Ca
 - `scripts/portfolio-sources.json`: original-to-web asset mapping.
 - `scripts/import-portfolio.py`: repeatable media and text import; see `MEDIA.md`.
 
-The gallery order generates both the shader lookup and pointer-selection order from one shared list. Its atlas and related-project links adapt to the current project count. Gallery covers use small still thumbnails; project animations appear in the viewer and as controlled films in the articles.
+The gallery order generates both the shader lookup and pointer-selection order from one shared list. Its atlas and related-project links adapt to the current project count. Gallery covers use full-size WebP banners; project animations appear in the viewer and as controlled films in the articles.
 
 Each page keeps the editorial grid, typography, image viewer, and scope map. Subtle paper tints and variations in full-width images, paired products, offset compositions, and portrait triptychs give the brands individual pacing. On mobile, section navigation remains sticky and all body copy stays alongside the relevant media.
 
@@ -68,6 +68,6 @@ Each page keeps the editorial grid, typography, image viewer, and scope map. Sub
 
 ## Loading
 
-The gallery paints immediately, then decodes 800px WebP banners into the atlas. The nine banners total approximately 90KB on disk. Detail images are loaded lazily with explicit dimensions, and in-article films load only when played. Full-size web imagery is limited to 2200px on the longest side.
+The gallery paints immediately, then decodes full-size WebP banners into the atlas. The nine banners total approximately 350KB on disk. Landscape banners retain enough vertical resolution for the square atlas crop. Detail images are loaded lazily with explicit dimensions, and in-article films load only when played. Full-size gallery imagery is limited to 2200px on the longest side.
 
-Phones and save-data connections use a smaller atlas, reduced pixel ratio, and a lighter rendering path. Reduced-motion preferences remove ambient movement and reveal animations.
+Phones use atlas tiles up to 1024px and canvas resolution up to 3× for sharp logos on high-density displays, subject to the GPU texture limit. Phones and save-data connections retain a lighter rendering path. Reduced-motion preferences remove ambient movement and reveal animations.

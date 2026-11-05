@@ -204,12 +204,12 @@ function sourceSize(source: CardSource) {
   return [source.width, source.height]
 }
 
-/** Decode off the main thread and down to the atlas tile, so a phone never holds a full-size bitmap. */
+/** Keep the landscape banner's height at atlas resolution before its sides are cropped. */
 async function loadCover(src: string, width: number): Promise<CardSource> {
   try {
     const response = await fetch(src)
     if (!response.ok) throw new Error(src)
-    return await createImageBitmap(await response.blob(), { resizeWidth: width, resizeQuality: 'high' })
+    return await createImageBitmap(await response.blob(), { resizeHeight: width, resizeQuality: 'high' })
   } catch {
     return await new Promise<HTMLImageElement>((resolve, reject) => {
       const image = new Image()
@@ -273,7 +273,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     let introStart = 0
     let introSeconds = 0
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches
-    // A phone runs a lighter field with smaller atlas tiles.
+    // A phone runs a lighter field while keeping its artwork sharp.
     const connection = (navigator as { connection?: { saveData?: boolean } }).connection
     const coarsePointer = matchMedia('(pointer: coarse)')
     const compact = innerWidth < 760 || coarsePointer.matches
@@ -343,7 +343,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR)
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR)
     const atlas = document.createElement('canvas')
-    const cardWidth = Math.min(compact ? 448 : 768, Math.floor(gl.getParameter(gl.MAX_TEXTURE_SIZE) / 5))
+    const cardWidth = Math.min(compact ? 1024 : 768, Math.floor(gl.getParameter(gl.MAX_TEXTURE_SIZE) / 5))
     const cardHeight = cardWidth
     atlas.width = cardWidth * 5
     atlas.height = cardHeight * Math.ceil(projects.length / 5)
@@ -360,7 +360,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     const resize = () => {
       width = canvas.clientWidth
       height = canvas.clientHeight
-      const dpr = Math.min(devicePixelRatio, compact ? 1.25 : 1.5)
+      const dpr = Math.min(devicePixelRatio, compact ? 3 : 1.5)
       canvas.width = Math.round(width * dpr)
       canvas.height = Math.round(height * dpr)
       tile.w = width < 600 ? Math.max(226, width * .6) : Math.min(400, width * .26)
@@ -621,7 +621,7 @@ export default function Gallery({ onSelect, onHover, paused, hidden, motion, war
     frame = requestAnimationFrame(render)
     const covers = projects.map(async (project, index) => {
       try {
-        const cover = await loadCover(thumbnail(project), cardWidth)
+        const cover = await loadCover(project.galleryImage, cardWidth)
         if (disposed) return
         images[index] = cover
         paintCard(index, 0)

@@ -22,19 +22,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/projects/frost/logo.webp",
-              "width": 1990,
-              "height": 1032,
-              "type": "image"
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#e677bc",
-            "typeColor": "#111",
-            "typefaces": [
-              "Alphakind",
-              "Melted"
-            ],
             "colors": [
               "#e677bc",
               "#8ad8f2",
@@ -149,18 +136,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/projects/happy-botanist/wordmark.webp",
-              "width": 2200,
-              "height": 445,
-              "type": "image"
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#f7f7f7",
-            "typeColor": "#111",
-            "typefaces": [
-              "FIGUERA VIDA"
-            ],
             "colors": [
               "#fff",
               "#000"
@@ -349,18 +324,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/projects/weeed/trolley-identity.webp",
-              "width": 2200,
-              "height": 1902,
-              "type": "image"
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#111",
-            "typeColor": "#fff",
-            "typefaces": [
-              "Gilroy Family"
-            ],
             "colors": [
               "#a1dc45",
               "#489628",
@@ -405,34 +368,6 @@
             },
             "alt": "Weeed — slogan",
             "portrait": false
-          },
-          {
-            "kind": "row",
-            "layout": "wide-left",
-            "children": [
-              {
-                "kind": "image",
-                "asset": {
-                  "src": "/media/projects/weeed/keychain.webp",
-                  "width": 2200,
-                  "height": 1373,
-                  "type": "image"
-                },
-                "alt": "Weeed — keychain",
-                "portrait": false
-              },
-              {
-                "kind": "image",
-                "asset": {
-                  "src": "/media/projects/weeed/sticker.webp",
-                  "width": 1142,
-                  "height": 1131,
-                  "type": "image"
-                },
-                "alt": "Weeed — sticker",
-                "portrait": false
-              }
-            ]
           },
           {
             "kind": "image",
@@ -506,18 +441,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/projects/call-the-queens/brand-mark.webp",
-              "width": 1292,
-              "height": 1220,
-              "type": "image"
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#8736d4",
-            "typeColor": "#fff",
-            "typefaces": [
-              "Kumich Sans"
-            ],
             "colors": [
               "#8736d4",
               "#cc76f5",
@@ -820,17 +743,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/gallery/hardys.webp",
-              "width": 2200,
-              "height": 1375
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#ef802a",
-            "typeColor": "#111",
-            "typefaces": [
-              "Mont Family"
-            ],
             "colors": [
               "#e83d99",
               "#ef802a",
@@ -982,19 +894,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/gallery/sunset.webp",
-              "width": 2200,
-              "height": 1375
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#f7f7f7",
-            "typeColor": "#111",
-            "typefaces": [
-              "Agbalumo",
-              "Provicali",
-              "Heathergreen"
-            ],
             "colors": [
               "#eb7639",
               "#f2be41",
@@ -1208,13 +1107,14 @@
             "layout": "wide-left",
             "children": [
               {
-                "kind": "image",
+                "kind": "animation",
                 "asset": {
-                  "src": "/media/projects/sunset/website.webp",
-                  "width": 1580,
-                  "height": 1004
+                  "src": "/media/projects/sunset/website-animation.gif",
+                  "width": 800,
+                  "height": 450
                 },
-                "alt": "Sunset — website"
+                "alt": "Sunset website palm scroll animation",
+                "poster": "/media/projects/sunset/website-animation-poster.webp"
               },
               {
                 "kind": "copy",
@@ -1298,17 +1198,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/gallery/canabotanica.webp",
-              "width": 2200,
-              "height": 1375
-            },
-            "logoBackground": "#dd5d32",
-            "typeBackground": "#dd5d32",
-            "typeColor": "#fff",
-            "typefaces": [
-              "Poppins"
-            ],
             "colors": [
               "#213f44",
               "#5277b5",
@@ -1422,18 +1311,6 @@
           },
           {
             "kind": "identity",
-            "logo": {
-              "src": "/media/gallery/sunset-collection.webp",
-              "width": 2200,
-              "height": 1375
-            },
-            "logoBackground": "#000",
-            "typeBackground": "#f7eaa0",
-            "typeColor": "#111",
-            "typefaces": [
-              "Rubik",
-              "Racleys Family"
-            ],
             "colors": [
               "#e25f32",
               "#de823c",

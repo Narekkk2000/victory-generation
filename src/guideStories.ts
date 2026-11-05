@@ -6,7 +6,7 @@ export type GuideBlock =
   | { kind: 'animation'; asset: AnimationAsset; alt: string; poster?: string; aspectRatio?: number }
   | { kind: 'copy'; title: string; paragraphs: string[] }
   | { kind: 'row'; layout?: 'pair' | 'triptych' | 'wide-left' | 'wide-right'; children: GuideBlock[] }
-  | { kind: 'identity'; logo: AnimationAsset; logoBackground: string; typeBackground: string; typeColor?: string; typefaces: string[]; colors: string[]; title: string; paragraphs: string[] }
+  | { kind: 'identity'; colors: string[]; title: string; paragraphs: string[] }
 
 export interface GuideStory {
   brief: string
