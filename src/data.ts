@@ -1,4 +1,4 @@
-import portfolio from './content/portfolio.json'
+import portfolio from './content/portfolio.json' with { type: 'json' }
 
 export const contactEmail = 'info@vgeneration.co'
 
